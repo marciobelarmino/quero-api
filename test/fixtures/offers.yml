@@ -3,7 +3,7 @@
 one:
   course: one
   university: one
-  campus: one
+  camp: one
   full_price: 1.5
   price_with_discount: 1.5
   discount_percentage: 1.5
@@ -14,7 +14,7 @@ one:
 two:
   course: two
   university: two
-  campus: two
+  camp: two
   full_price: 1.5
   price_with_discount: 1.5
   discount_percentage: 1.5

@@ -1,6 +1,6 @@
-class CreateCampus < ActiveRecord::Migration[6.0]
+class CreateCamps < ActiveRecord::Migration[6.0]
   def change
-    create_table :campus do |t|
+    create_table :camps do |t|
       t.string :name
       t.string :city
 
