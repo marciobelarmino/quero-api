@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   namespace :v1 do
     resources :courses, only: [:index]
     resources :offers, only: [:index]
+    resources :users, only: [:create]
+    post "/login", to: "users#login"
   end
 end
